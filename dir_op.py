@@ -9,3 +9,6 @@ def list_files(dir_path):
         if os.path.isfile(os.path.join(dir_path, file)):
             files.append(file)
     return files
+
+def create_directory(dir_name):
+    os.mkdir(dir_name)
